@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéAPI - Catálogo de Pokémon</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Pokémon</h1>
+        <p>Aplicação web interativa com consumo de dados em tempo real da PokéAPI</p>
+    </header>
+    <main>
+        <section id="pokemon-container" class="card-grid">
+        </section>
+        <div class="pagination-controls">
+            <button id="prev-btn" disabled>Anterior</button>
+            <span id="page-indicator">Página 1</span>
+            <button id="next-btn">Próximo</button>
+        </div>
+    </main>
+
+    <script src="../assets/js/constants.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
